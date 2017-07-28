@@ -249,7 +249,7 @@ app.post('/app/expenso/editpend',function (req,res) {
 
 
 database.connectDB(function () {
-    app.listen(4000 || process.env.port,function (err) {
+    app.listen(3000 || process.env.port,function (err) {
         if(err) throw err;
         console.log('server is running');
     });
